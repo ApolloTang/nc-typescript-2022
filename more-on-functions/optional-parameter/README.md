@@ -1,6 +1,6 @@
 # Optional parameter
 
-Optional parameter is actually a union of `undefined` with the declared type:
+The type of optional parameter is a union of `undefined` with the declared type:
 
 ```typescript
 function f(arg?: number) {
@@ -22,7 +22,7 @@ See:  https://www.typescriptlang.org/docs/handbook/2/functions.html#optional-par
 
 ## Initializing an optional parameter:
 
-This is a syntax error, you cannot linitialize an optional parameter.
+This is a syntax error, you cannot lnitialize an optional parameter.
 
 ```typescript
 // @ts-expect-error
